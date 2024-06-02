@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Using Inline onclick Event
+        </title>
+        <style>
+            .GFG {
+                background-color: white;
+                border: 2px solid black;
+                color: green;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Welcome to my site </h1>
+        <!-- Adding link to the button on the onclick event -->
+        <button
+            class="GFG"
+            onclick=
+"window.location.href = 'https://mail.google.com/mail/u/0/#inbox';"
+        >
+            Mail
+        </button>
+        <button
+            class="GFG"
+            onclick=
+"window.location.href = 'https://www.facebook.com/';"
+        >
+            Facebook
+        </button>
+       <h1> Enjoy the Entertainment </h1>
+    </body>
+</html>
